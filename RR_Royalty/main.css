@@ -23,7 +23,7 @@ hr {
 /* Footer Styling */
 
 footer{
-    width:98%;
+    width:95%;
     margin:auto;
     margin-top: 7%;
     border: black solid 1px;
@@ -80,7 +80,7 @@ footer p{
 
 header{
     color: gray;
-    width: 98%;
+    width: 97%;
     display: grid;
     grid-template-columns: minmax(155px,80%) auto;
     margin-bottom: 8%;
@@ -148,12 +148,12 @@ header{
 
 /* Navigation Bar Styling */
 nav{
-    width:99%;
+    width:95%;
     margin:auto;
     margin-top: -9%;
     margin-bottom: 3%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     color: red;
     background-color: white;
     align-items: center;
@@ -331,6 +331,12 @@ section.employ{
 @media only screen and (max-width: 575px){
     
   /* Header address/phone number section */
+
+        header{
+            width: 95%;
+            grid-template-columns: minmax(145px,80%) auto;
+        }  
+
       header p{
           font-size: .75em;
       }
@@ -395,7 +401,7 @@ section.employ{
       }
 
       footer p{
-          font-size: 1.015em;
+          font-size: .90em;
       }
   
   }
