@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    font-family: Quicksand, sans-serif;
+    color: black;
+    margin: 0;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    background-color:white;
+    max-width:700px;
+}
+
+.squares{
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    background-color: black;
+    border-radius: 25px;
+    float: left;
+    transition: background-color 0.5s;
+}
+
+#heading{
+    background-color:ghostwhite;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0;
+    transition: background-color 0.65s;
+    -webkit-transtion: background-color 0.65s;
+    -moz-transition: background-color 0.65s;
+}
+
+p{
+    margin: 0;
+}
+
+#guessColor{
+    font-size: 175%;
+}
+
+#messagebar{
+    background-color:slategray;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#tryagain{
+    width: 33%;
+    display: inline-block;
+    font-size:1.2em;
+}
+
+.difficultySelect{
+    background-color: lightskyblue;
+    color:ghostwhite;
+}
+
+button{
+    border: none;
+    font-family: Quicksand, sans-serif;
+    color:ghostwhite;
+    background-color: slategrey;
+    font-size: 1.2em;
+    height:100%;
+    transition: background-color 0.5s;
+    -webkit-transtion: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
+
