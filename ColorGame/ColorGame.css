@@ -81,15 +81,23 @@ button:hover{
 @media only screen and (max-width: 500px){
 
     #tryagain{
-        font-size: .95em;
+        font-size: 0.5em;
     }
     
     #button{
-        font-size: .95em;
+        font-size: 0.5em;
     }
 
     #messagebar{
-        height: 30px;
+       font-size: 0.5em;
+    }
+
+    #heading{
+        font-size: 1.2em;
+    }
+
+    #guessColor{
+        font-size:125%;
     }
 
 
