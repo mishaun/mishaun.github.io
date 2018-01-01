@@ -78,18 +78,18 @@ button:hover{
     background-color: lightskyblue;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 650px){
 
     #tryagain{
-        font-size: 0.5em;
+        font-size: 0.85em;
     }
     
     #button{
-        font-size: 0.5em;
+        font-size: 0.85em;
     }
 
     #messagebar{
-       font-size: 0.5em;
+       font-size: 0.85em;
     }
 
     #heading{
