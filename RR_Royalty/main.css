@@ -468,7 +468,7 @@ section.employ{
 
     }
 
-    @media screen and (orientation: landscape){
+    @media only screen and (max-width: 650px) and (orientation: landscape){
         footer p{
             font-size: .8em;
         }
