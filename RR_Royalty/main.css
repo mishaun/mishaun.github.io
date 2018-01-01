@@ -468,4 +468,10 @@ section.employ{
 
     }
 
+    @media screen and (orientation: landscape){
+        footer p{
+            font-size: .8em;
+        }
+    }
+
 /* End media queries */
