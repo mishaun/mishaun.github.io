@@ -72,6 +72,7 @@ button{
     transition: background-color 0.5s;
     -webkit-transtion: background-color 0.5s;
     -moz-transition: background-color 0.5s;
+    outline: none;
 }
 
 button:hover{

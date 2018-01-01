@@ -107,4 +107,5 @@ function reset(){
     };
 
     message.textContent = ""; //resets the message content of try again/correct to nothing
+    resetButton.textContent = "New Colors";
 }
