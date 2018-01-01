@@ -52,7 +52,7 @@ p{
 }
 
 #tryagain{
-    width: 33%;
+    width: 20%;
     display: inline-block;
     font-size:1.2em;
 }
@@ -78,3 +78,19 @@ button:hover{
     background-color: lightskyblue;
 }
 
+@media only screen and (max-width: 500px){
+
+    #tryagain{
+        font-size: .95em;
+    }
+    
+    #button{
+        font-size: .95em;
+    }
+
+    #messagebar{
+        height: 30px;
+    }
+
+
+}
