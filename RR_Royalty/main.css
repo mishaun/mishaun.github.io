@@ -29,6 +29,7 @@ footer{
     border: black solid 1px;
     background-color:white;
     border-radius: 15px;
+   
 }
 
 .footernav{
@@ -202,6 +203,11 @@ nav a{
     box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 
+.current:hover{
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
+}
+
 nav a:hover{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 15px rgb(241, 7, 7);
@@ -280,7 +286,7 @@ section.overview{
     justify-items: center;
 }
 
-section a{
+#seemaptab {
     text-align: center;
     width: 100%;
     color: black;
@@ -292,7 +298,7 @@ section a{
 }
 
 
-section a:hover{
+section #seemaptab:hover{
     background-color: white;
     
 }
@@ -338,7 +344,7 @@ section.employ{
     width:90%;
     margin: auto;
     margin-top: 3%;
-    margin-bottom: 15%;
+    margin-bottom: 35%;
 }
 .employ h3{
     text-decoration: underline;
@@ -430,7 +436,11 @@ section.employ{
 /* Media Queries Team Page */
 
 @media only screen and (max-width: 890px){
-    
+
+        div.Company{
+            font-size: 1.75em;
+        }
+
         section.teampics{
             width: 100%;
             display: block;
