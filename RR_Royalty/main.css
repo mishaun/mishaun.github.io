@@ -173,7 +173,7 @@ div.navitems{
     margin: auto;
 }
 
-div.Company
+#Company
 {
     color: black;
     grid-column: 1;
@@ -203,12 +203,12 @@ nav a{
     box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 
-.current:hover{
+.navitems .current:hover{
     background-color: white;
     box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 
-nav a:hover{
+.navitems a:hover{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 15px rgb(241, 7, 7);
 }
@@ -286,6 +286,10 @@ section.overview{
     justify-items: center;
 }
 
+#table div{
+    width:95%;
+}
+
 #seemaptab {
     text-align: center;
     width: 100%;
@@ -324,6 +328,14 @@ section #seemaptab:hover{
     text-decoration: underline;
 }
 
+.highlight{
+
+    font-weight: 800;
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: red 1px 1px 1px;
+}
 
 /* Map Tab Page Styling */
 
@@ -400,7 +412,7 @@ section.employ{
           padding-bottom: 8px;
       }
   
-      div.Company
+      #Company
       {
           grid-column: 1;
           grid-row: 1;
@@ -418,7 +430,7 @@ section.employ{
           font-size: 1.015em;
       }
   
-      nav a{
+      .navitems a{
           padding: 2px 4px 2px 4px;
           border: solid .5px rgba(97, 97, 97, 0.514);
       }
