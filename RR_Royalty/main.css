@@ -454,7 +454,7 @@ section.employ{
   
   }
   
-/* Media Queries Team Page */
+
 
 @media only screen and (max-width: 890px){
 
@@ -462,14 +462,6 @@ section.employ{
             font-size: 1.75em;
         }
 
-        section.teampics{
-            width: 100%;
-            display: block;
-        }
-    
-        .teampics div{
-            margin: 15px auto;
-        }
 
         section.overview{
             grid-template-rows: auto auto auto;
@@ -485,14 +477,36 @@ section.employ{
             grid-row: 3/4;
         }
 
+        section.teampics{
+            width: 100%;
+        }
+    
+        .teampics div{
+            margin: 15px auto;
+        }
 
 
     }
+
+    @media only screen and (max-width: 650px){
+    /* Media Queries Team Page */
+    section.teampics{
+        width: 100%;
+        display: block;
+    }
+
+    .teampics div{
+        margin: 15px auto;
+    }
+}
 
     @media only screen and (max-width: 650px) and (orientation: landscape){
         footer p{
             font-size: .8em;
         }
     }
+
+
+    
 
 /* End media queries */
