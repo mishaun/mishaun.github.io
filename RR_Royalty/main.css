@@ -450,7 +450,7 @@ section.employ{
       }
 
       footer p{
-          font-size: .90em;
+          font-size: .95em;
       }
   
   }
@@ -501,11 +501,6 @@ section.employ{
     }
 }
 
-    @media only screen and (max-width: 650px) and (orientation: landscape){
-        footer p{
-            font-size: .8em;
-        }
-    }
 
     @media only screen and (max-width: 755px){
         #Company{
@@ -515,6 +510,8 @@ section.employ{
         nav{
             padding: 3px;
         }
+
+
     }
 
     
