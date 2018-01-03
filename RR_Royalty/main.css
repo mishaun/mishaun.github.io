@@ -239,6 +239,7 @@ section.teampics{
     text-align: center;
     width: 35%;
     min-width: 275px;
+    max-width:320px;
     height: 35%;
     padding: 10px;
     margin:auto;
@@ -506,6 +507,15 @@ section.employ{
         }
     }
 
+    @media only screen and (max-width: 755px){
+        #Company{
+            font-size: 1.25em;
+        }
+
+        nav{
+            padding: 3px;
+        }
+    }
 
     
 
