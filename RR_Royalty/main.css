@@ -374,6 +374,60 @@ section.employ{
 
 /* media queries for smartphone */
 
+@media only screen and (max-width: 890px){
+
+    #Company{
+        font-size: 1.75em;
+    }
+
+
+    section.overview{
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+
+    div.mapholder{
+        grid-row: 2/3;
+    }
+
+    div.tableholder{
+        grid-row: 3/4;
+    }
+
+    section.teampics{
+        width: 100%;
+    }
+
+    .teampics div{
+        margin: 15px auto;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 755px){
+    #Company{
+        font-size: 1.25em;
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+    /* Media Queries Team Page */
+    section.teampics{
+        width: 100%;
+        display: block;
+    }
+
+    .teampics div{
+        margin: 15px auto;
+    }
+}
+
 @media only screen and (max-width: 575px){
     
   /* Header address/phone number section */
@@ -450,70 +504,10 @@ section.employ{
       }
 
       footer p{
-          font-size: .95em;
+          font-size: .9em;
       }
   
   }
-  
-
-
-@media only screen and (max-width: 890px){
-
-        #Company{
-            font-size: 1.75em;
-        }
-
-
-        section.overview{
-            grid-template-rows: auto auto auto;
-            grid-template-columns: 1fr;
-            padding-bottom: 10px;
-        }
-
-        div.mapholder{
-            grid-row: 2/3;
-        }
-
-        div.tableholder{
-            grid-row: 3/4;
-        }
-
-        section.teampics{
-            width: 100%;
-        }
-    
-        .teampics div{
-            margin: 15px auto;
-        }
-
-
-    }
-
-    @media only screen and (max-width: 650px){
-    /* Media Queries Team Page */
-    section.teampics{
-        width: 100%;
-        display: block;
-    }
-
-    .teampics div{
-        margin: 15px auto;
-    }
-}
-
-
-    @media only screen and (max-width: 755px){
-        #Company{
-            font-size: 1.25em;
-        }
-
-        nav{
-            padding: 3px;
-        }
-
-
-    }
-
-    
+      
 
 /* End media queries */
