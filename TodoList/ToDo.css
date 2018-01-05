@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right, aqua 45%,rgba(144, 238, 144, 0.815) 75%, lightyellow);
+    font-family: Quicksand, sans-serif;
+}
+
+div{
+    width: 340px;
+    margin: 10% auto;
+    background-color:ghostwhite;
+    box-shadow: 0px 1px 4px black;
+}
+
+span{
+    background-color:red;
+    color: white;
+    text-align: center;
+    margin-right:10px;
+    width: 0; 
+    display: inline-block;
+    opacity: 0;
+    transition: 0.4s;
+    -webkit-transtion: 0.4s;
+    -moz-transition: 0.4s;
+    
+}
+
+
+li:hover span{
+    opacity: 1;
+    width: 30px;
+
+}
+
+h1{
+    color:white;
+    background-color:rgb(100, 194, 231);
+    text-transform: uppercase;
+    margin:0;
+    padding: 10px 7px;
+    font-size: 24px;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+   height: 40px;
+   line-height: 40px;
+    margin:0;
+}
+
+li:nth-child(even){
+    background-color:rgba(211, 211, 211, 0.562);
+}
+
+input{
+    width: 98%;
+    color:rgb(100, 194, 231);
+    font-family: Quicksand;
+    font-size: 18px;
+    outline: none;
+    border:none;
+    padding: 3px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+input:focus{
+    background-color:rgba(211, 211, 211, 0.562);
+   
+}
+
+.fa-plus{
+    float:right;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden{
+    display: none;
+}
