@@ -235,7 +235,7 @@ section.teampics{
 
 
 .teampics div{
-    box-shadow: 0px 5px 70px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.61);
     text-align: center;
     width: 35%;
     min-width: 275px;
@@ -424,6 +424,7 @@ section.employ{
     }
 
     .teampics div{
+        box-shadow: 0px 1px 3px black;
         margin: 15px auto;
     }
 }
