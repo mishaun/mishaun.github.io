@@ -24,52 +24,31 @@ hr {
 
 header{
     color: gray;
-    width: 97%;
-    display: grid;
-    grid-template-columns: minmax(155px,80%) auto;
-}
-#logobar{
-    grid-area: 1/1;
-    align-self: start;
+    width: 95%;
+    margin: auto;
 }
 
-#logo{
-    position: relative;
-    top:6%;
-    left:5%;
+.fa{
+    font-size:30px;
+    margin-right: 10px;
+    color: rgb(176, 176, 176);
 }
 
 #infobox{
-    display: grid;
-    grid-template-columns: 45px minmax(180px,1fr);
-    grid-template-rows: auto auto;
-}
-
-
-#locicon{
-    grid-area: 1/1;
-    align-self: center;
-    justify-self: end;
-    position: relative;
-    top: 18%;
-}
-
-#phoneicon{
-    grid-area: 2/1;
-    align-self: center;
-    justify-self: end;
-    position: relative;
-    bottom: 5%;
-    left:1%;
-  
+    float: right;
+    margin-bottom: 10px;
 }
 
 #address{
-    color: gray;
-    grid-area: 1/2;
-    align-self: end;
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+#number{
     position: relative;
-    top:10%;
+    bottom: 5px;
+    right: 8px;
+    
 }
 
 #address a{
@@ -77,11 +56,6 @@ header{
     text-decoration: none;
 }
 
-#phonenumber{
-    color: gray;
-    grid-area: 2/2;
-    align-self: start;
-}
 
 /* ---------End Address Bar Styling---------------------------------------- */
 
@@ -435,37 +409,9 @@ footer p{
 @media only screen and (max-width: 575px){
     
   /* Header address/phone number section */
-
-      header{
-        width: 95%;
-        grid-template-columns: minmax(145px,80%) auto;
-      }  
-
-      header p{
-          font-size: .75em;
-      }
-
-      #logo{
-          width: 130px;
-          height: 140px;
-      }
-
-      #infobox{
-          margin-right: 7.5px;
-      }
-     
-      #phoneicon{
-       
-        height: 35px;
-      }
-
-      #locicon{
-        height: 35px;
-      }
-   
-      #phonenumber{
-        position: relative;
-        top: 7px;
+    header{
+        width: 65%;
+        font-size: .9em;
     }
 
 
@@ -527,15 +473,13 @@ footer p{
     }
 
     header{
-        width: 100%;
+        font-size: .7em;
     }
 
-    #infobox{
-        grid-template-columns: auto minmax(180px,1fr);
+    .fa{
+        font-size: 25px;
     }
-    #locicon, #phoneicon{
-        display: none;
-    }
+
 }
 
 /* End media queries */
