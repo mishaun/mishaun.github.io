@@ -3,14 +3,47 @@ body{
     background-color: whitesmoke;
 }
 
+#prices{
+    width:220px;
+}
+
 #prices a{
     color: black;
 }
 
-#prices{
-    float: right;
-    border: solid 1px black;
+#infobar{
+    border-top: silver solid 5px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#loci, #phone{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#prices{
+    box-shadow: 0px 0px 5px white;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+#crude a, #gas a{
+    color: black;
+}
+
+
 
 hr {
     color: ghostwhite;
@@ -27,7 +60,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 75%;
     max-width: 500px;
     min-width: 200px;
     box-shadow: white 0px 0px 10px;
@@ -39,13 +72,11 @@ hr {
     height: 30px;
 }
 
-.jumbotron{
+#header{
     background-color: black;
     color:white;
     margin:0;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding: 30px 0;
 }
 
 .navbar-collapse{
@@ -69,6 +100,7 @@ hr {
 
 h2{
     text-align: center;
+    margin-top: 0;
 }
 
 h5{
@@ -78,6 +110,7 @@ h5{
 
 #map{
     width:100%;
+    margin-top: auto;
 }
 
 .thumbnail{
@@ -85,6 +118,10 @@ h5{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
 
 
 
@@ -143,9 +180,6 @@ footer p{
     padding-bottom: 8px;
 }
 
-i{
-    margin-right: 7px;
-}
 
 
 /* media queries */
@@ -154,10 +188,6 @@ i{
     width: 90%;
 }
 
-.jumbotron h2,h3{
-    font-size: 1.35em;
-}
-}
 
 @media only screen and (max-width: 420px){
     .jumbotron h2,h3{
@@ -173,3 +203,4 @@ i{
 }
 
 
+}
