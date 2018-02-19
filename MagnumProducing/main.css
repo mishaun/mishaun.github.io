@@ -105,7 +105,7 @@ hr {
     height: 450px;
 }
 
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
     height: 430px;
     width: 100%;
 }
