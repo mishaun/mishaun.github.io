@@ -7,6 +7,9 @@ body{
     color: black;
 }
 
+#about{
+    padding: 0 35px;
+}
 
 #infobar{
     border-top: silver solid 5px;
@@ -33,10 +36,12 @@ a:hover{
 
 #prices{
     width: 220px;
+    position: relative;
+    right: 170px;
     box-shadow: 0px 0px 5px white;
-    margin-right: 15px;
-    margin-bottom: 20px;
-    display: inline-block;
+    display: flex;
+    float: right;
+    text-align: center;
 }
 
 
@@ -82,6 +87,11 @@ hr {
 .navbar-collapse{
     padding-left: 0;
     padding-right:0;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left : 10px;
+    border-bottom: solid 2px black;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -203,6 +213,10 @@ footer p{
 @media only screen and (max-width: 870px){
 .footernav{
     width: 90%;
+}
+
+#prices{
+    margin-bottom: 15px;
 }
 
 
