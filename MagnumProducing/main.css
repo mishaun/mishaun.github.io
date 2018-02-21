@@ -120,6 +120,9 @@ hr {
     width: 100%;
 }
 
+.slider-container{
+    max-width: 800px;
+}
 .carousel-caption{
     color: white;
     width: 25%;
