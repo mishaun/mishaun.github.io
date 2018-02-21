@@ -83,7 +83,10 @@ hr {
     margin:0;
     padding: 30px 0;
 }
-
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .navbar-collapse{
     padding-left: 0;
     padding-right:0;
