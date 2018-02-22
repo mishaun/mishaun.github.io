@@ -2,6 +2,15 @@ body{
     font-family: Quicksand, sans-serif;
     background-color: whitesmoke;
 }
+#prices{
+    width: 220px;
+    position: relative;
+    right: 170px;
+    box-shadow: 0px 0px 5px white;
+    display: flex;
+    float: right;
+    text-align: center;
+}
 
 #prices a{
     color: black;
@@ -34,15 +43,7 @@ body{
     margin-right: 10px;
 }
 
-#prices{
-    width: 220px;
-    position: relative;
-    right: 170px;
-    box-shadow: 0px 0px 5px white;
-    display: flex;
-    float: right;
-    text-align: center;
-}
+
 
 
 #crude a, #gas a{
