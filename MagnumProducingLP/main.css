@@ -3,6 +3,10 @@ body{
     background-color: whitesmoke;
 }
 
+iframe{
+    box-shadow: 0px 0px 1px black;
+}
+
 #about{
     padding: 0 35px
 }
@@ -29,9 +33,10 @@ body{
     text-decoration: none;
 }
 
-#loci, #phone{
+#loci, #phone, #fax{
     font-size: 20px;
     margin-right: 10px;
+    display: inline-flex;
 }
 
 
@@ -125,6 +130,7 @@ hr {
 }
 
 
+
 h2{
     text-align: center;
     margin-top: 0;
@@ -146,6 +152,30 @@ h5{
 }
 
 
+.landOwner h4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.panel-group h4{
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.05em;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+    max-width: 500px;
+    box-shadow: 0px 0px 2px black;
+    margin: auto;
+}
+
+.list-group a{
+    font-size: 1em;
+}
+
 #contactRelations{
     border: 1px solid white;
     width:70%;
@@ -155,6 +185,28 @@ h5{
 
 #contactRelations .thumbnail{
     border: 1px solid black;
+}
+
+.contactimg{
+    width: 90px; 
+    height: 18px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.contactpage h3{
+   margin-top: 0;
+}
+
+.contactpage ul{
+    list-style:  none;
+    padding-left: 0;
+
+}
+
+.contactmaps{
+    width: 350px;
+    height: 200px;
 }
 
 
@@ -220,12 +272,7 @@ footer p{
 .footernav{
     width: 90%;
 }
-
-#prices{
-    margin-bottom: 15px;
 }
-
-
 @media only screen and (max-width: 420px){
     .jumbotron h2,h3{
         font-size: 1.4em;
@@ -249,7 +296,9 @@ footer p{
         width: 100%;
         font-size: .9em;
     }
-}
 
-
+    .contactmaps{
+    width: 250px;
+    height: 200px;
+    }
 }
