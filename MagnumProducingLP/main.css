@@ -204,6 +204,7 @@ h5{
 
 }
 
+
 .contactmaps{
     width: 350px;
     height: 200px;
@@ -265,6 +266,10 @@ footer p{
     padding-bottom: 8px;
 }
 
+.hide{
+    display: block;
+}
+
 
 
 /* media queries */
@@ -276,6 +281,10 @@ footer p{
 @media only screen and (max-width: 420px){
     .jumbotron h2,h3{
         font-size: 1.4em;
+    }
+
+    #hide{
+        display:none;
     }
 
     .carousel .item{
