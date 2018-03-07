@@ -273,6 +273,30 @@ footer p{
 
 
 /* media queries */
+
+
+@media only screen and (max-width: 1701px) and (min-width: 2000px){
+    .carousel .item{
+        height: 810px;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        height: 800px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    .carousel .item{
+        height: 610px;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        height: 600px;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 870px){
 .footernav{
     width: 90%;
