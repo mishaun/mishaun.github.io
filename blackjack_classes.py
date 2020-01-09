@@ -45,10 +45,38 @@ class Deck:
     
     def shuffle(self):
         random.shuffle(self.deck)
-
-class Player:
     
-    def __init__(self, chips = 100):
-        pass
+    def deal(self):
+        single_card = self.deck.pop(0)
+        return single_card
+
+class Hand:
+    def __init__(self):
+        self.hand = []
+        self.value = 0
+        self.aces = 0
+    
+    def add_card(self, card):
+        self.hand.append(card)
+        self.value += card.value
+        
+        if card.rank == "Ace":
+            self.aces +=1
+        
+        while self.value > 21 and self.aces > 0:
+            self.value -= 10
+            self.aces -= 1
+        
+    def show_hand(self):
+        for card in self.hand:
+            card.show()
+        
+        print(f"Hand value is: {self.value}\n")
+
+#############################
+
+
+
+    
     
     
