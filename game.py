@@ -5,20 +5,25 @@ Created on Wed Jan  8 10:12:02 2020
 @author: mishaun
 """
 
-import blackjack_classes
+import blackjack_classes as bj
 import random
 
 choice = "" #variable for user to hit or stay
 playing = True
 
+chips = bj.Chips() #instanciating chips class for player
+
 #starting game - creating deck, dealer, and player
-deck = Deck()
+deck = bj.Deck()
 deck.shuffle()
 
 
 
-player = Hand()
-dealer = Hand()
+player = bj.Hand()
+dealer = bj.Hand()
+
+bet_amount = int(input("Please enter your bet amount: "))
+chips.bet(bet_amount)
 
 #dealing cards to player and dealer
 player.add_card(deck.deal())
@@ -37,6 +42,7 @@ while playing:
     
     if player.value == 21:
         print("You Win")
+        chips.win(bet_amount)
         break
     
     choice = input("Player: Hit or Stay? ").upper()
@@ -63,10 +69,11 @@ while playing:
             print("\nDealer hand is: ")
             dealer.show_hand()
             
-            if dealer.value < 21:
+            if dealer.value <= 21:
                 print("\nDealer Wins")
             else: 
                 print("\nPlayer Wins - Dealer Busted")
+                chips.win(bet_amount)
             break
     
 

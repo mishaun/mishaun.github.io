@@ -32,7 +32,8 @@ class Deck:
         #emtpy list that will be appended with list of card objects
         self.deck = []
         self.build() #running building of deck upon instanciation
-    
+        self.shuffle()
+        
     def build(self):
         for suit in suits:
             for rank in ranks:
@@ -72,6 +73,21 @@ class Hand:
             card.show()
         
         print(f"Hand value is: {self.value}\n")
+    def reset_hand(self):
+        self.hand = []
+        self.value = 0
+        
+class Chips:
+    def __init__(self, worth = 100):
+        self.worth = worth
+        
+    def bet(self,amount):
+        self.worth -= amount
+    
+    def win(self, winnings):
+        self.worth+=winnings*2
+    def __str__(self):
+        return "Player chips balance: {}".format(self.worth)
 
 #############################
 
